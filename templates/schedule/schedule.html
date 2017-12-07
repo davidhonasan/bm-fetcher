@@ -9,7 +9,13 @@
     <p>Hello, {{ name }}</p>
     <p>{{ major }} {{ student_id }}</p>
     {% for class in schedule %}
-
+        <div>
+            <h4>{{ class.COURSE_TITLE_LONG }}</h4>
+            <p>{{ class.SSR_COMPONENT }} - {{ class.N_DELIVERY_MODE }}</p>
+            <p>{{ class.LOCATION }} - {{ class.ROOM }}</p>
+            <p>{{ class.START_DT }}</p>
+            <p>{{ class.MEETING_TIME_START }} - {{ class.MEETING_TIME_END }}</p>
+        </div>
     {% endfor %}
 
 {% endblock %}

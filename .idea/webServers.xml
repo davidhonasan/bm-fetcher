@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="445a7337-59a5-4e50-914f-7d74e21d4e2c" name="ftp.kadutt.ga" url="http://tommy.heliohost.org">
+        <fileTransfer host="tommy.heliohost.org" port="1342" rootFolder="/home/kadutt/bm" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="1342" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

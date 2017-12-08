@@ -6,8 +6,7 @@
 
 {% block content %}
     <h1>Schedule</h1>
-    <p>Hello, {{ name }}</p>
-    <p>{{ major }} {{ student_id }}</p>
+    <p>{{ name }} {{ major }} {{ student_id }}</p>
     {% for class in schedule %}
         <div>
             <h4>{{ class.COURSE_TITLE_LONG }}</h4>
